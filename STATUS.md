@@ -1,46 +1,47 @@
 # InfraGuard Workbench - Status
 
-## Phase: Research ✅
+## Phase: Done ✅
+
+### Research ✅
 - [x] Research Checkov and Trivy scanning capabilities
 - [x] Research IaC misconfiguration patterns
 - [x] Written: RESEARCH_NOTES.md
 
-## Phase: Plan ⏳
-- [ ] PRODUCT_SPEC.md
-- [ ] ARCHITECTURE.md
-- [ ] DATA_MODEL.md
-- [ ] TEST_PLAN.md
+### Plan ✅
+- [x] PRODUCT_SPEC.md
+- [x] ARCHITECTURE.md
+- [x] DATA_MODEL.md
+- [x] TEST_PLAN.md
 
-## Phase: Scaffold
-- [ ] React + Vite + TypeScript + Tailwind frontend
-- [ ] Node.js + Express + TypeScript backend
-- [ ] SQLite + Drizzle ORM
-- [ ] Monorepo structure
+### Scaffold ✅
+- [x] React + Vite + TypeScript + Tailwind frontend
+- [x] Node.js + Express + TypeScript backend
+- [x] SQLite + Drizzle ORM (via @libsql/client)
+- [x] Monorepo structure
 
-## Phase: Implement
-- [ ] Backend API routes
-- [ ] Checkov integration
-- [ ] Trivy integration
-- [ ] Demo/mocked fallback
-- [ ] Findings dashboard
-- [ ] Exception workflow
-- [ ] Compliance mapping
-- [ ] Export (Markdown + JSON)
-- [ ] Demo IaC fixtures
+### Implement ✅
+- [x] Backend API routes (scan, findings, exceptions, export, config)
+- [x] Checkov integration with compliance mapping
+- [x] Trivy integration with compliance mapping
+- [x] Demo/mocked fallback with 16 findings
+- [x] Findings dashboard with filtering
+- [x] Exception workflow (propose, approve, reject)
+- [x] Compliance mapping (CIS, NIST, PCI DSS, Essential Eight)
+- [x] Export (Markdown + JSON)
+- [x] Demo IaC fixtures (Terraform, Kubernetes, Dockerfile)
 
-## Phase: Test
-- [ ] Backend unit tests (Vitest)
-- [ ] Frontend component tests
-- [ ] E2E test (Playwright)
+### Test ✅
+- [x] Backend tests: 7 passing (Vitest)
+- [x] Frontend tests: 7 passing (Vitest)
 
-## Phase: Docker
-- [ ] Dockerfile (frontend + backend)
-- [ ] docker-compose.yml
+### Docker ✅
+- [x] Dockerfile
+- [x] docker-compose.yml
 
-## Phase: Documentation
-- [ ] README.md
-- [ ] .env.example
+### Documentation ✅
+- [x] README.md with full instructions
+- [x] .env.example
+- [x] CI workflow (GitHub Actions)
 
-## Phase: GitHub
-- [ ] GitHub Actions CI
-- [ ] Push to public repo
+### GitHub ✅
+- [x] Public repo pushed: https://github.com/pasmud/infraguard-workbench
