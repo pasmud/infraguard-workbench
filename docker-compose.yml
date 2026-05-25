@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  infraguard:
+    build: .
+    ports:
+      - "${BACKEND_PORT:-43000}:43000"
+    volumes:
+      - ./data:/app/data
+      - ./fixtures:/app/fixtures
+    environment:
+      - DATABASE_PATH=/app/data/infraguard.db
+      - BACKEND_PORT=43000
